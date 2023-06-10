@@ -1,0 +1,12 @@
+Exercise 4 Answer
+
+Question 1.
+Based on your results for the last question, do you think daily temperatures are a good way to predict population density? Briefly explain why or why not.
+
+Daily temperatures are NOT a good way to predict population density, according to the obtained plot shows that there is no obvious trend between the two. The information we can observe from the plot is: at temperatures below 15C, the population density is very low. The population density increased significantly from 15C, most cities were in the mild to moderate temperature range, and the high temperature did not significantly reduce the population.
+
+
+Question 2.
+Several of the (larger) data files were was kept compressed on disk throughout the analysis, so they needed to be decompressed ever time we ran our program: that seems inefficient. Why might this be faster than working with an uncompressed .json or .csv data?
+
+Compressed files have a smaller size on disk than their uncompressed counterparts and are totally numerical process. Also, the time saved by reading smaller compressed files may outweigh the decompression time. This reduces the amount of data that needs to be read from disk, thus speeding up I/O operations. Smaller file sizes require less storage and processing memory. Compressed files take up less memory, allowing more frequently accessed data to be cached. This reduces the number of disk reads required, which speeds up the entire process.
