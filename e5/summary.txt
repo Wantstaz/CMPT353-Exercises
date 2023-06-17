@@ -1,0 +1,72 @@
+Data file: data-1.csv
+
+ Mean (x): 8.71769618641382
+ Standard Deviation (x): 12.155517231222024
+ Range (x): 57.87293327786024
+
+ Mean (y): 12.522874034702584
+ Standard Deviation (y): 6.63996400756785
+ Range (y): 29.94924044421798
+
+ Correlation coefficient of (x-y): LinregressResult(slope=0.519116405591063, intercept=7.9973749253765245, rvalue=0.9503256954375483, pvalue=1.788916147163226e-51, stderr=0.017175077810005233, intercept_stderr=0.25606264695594594)
+
+Data file: data-1.csv
+
+ Mean (x): -0.7107871267159572
+ Standard Deviation (x): 11.481583587790734
+ Range (x): 60.9181134493271
+
+ Mean (y): -0.7489869764497991
+ Standard Deviation (y): 6.257917998755848
+ Range (y): 32.769118752736546
+
+ Correlation coefficient of (x-y): LinregressResult(slope=0.5205963225346953, intercept=-0.37895381217646923, rvalue=0.9551531665750373, pvalue=1.341051928434524e-53, stderr=0.01630314243593085, intercept_stderr=0.1866077598454991)
+
+Data file: data-1.csv
+
+ Mean (x): 0.9689074904200939
+ Standard Deviation (x): 2.23555786105797
+ Range (x): 6.967949247227911
+
+ Mean (y): 8.508535236641327
+ Standard Deviation (y): 1.1493008110024527
+ Range (y): 3.9101365324125537
+
+ Correlation coefficient of (x-y): LinregressResult(slope=0.5048141738150563, intercept=8.019417002361688, rvalue=0.9819372646760661, pvalue=1.5829599724841458e-217, stderr=0.005634772379291498, intercept_stderr=0.013709809513358455)
+
+Data file: data-1.csv
+
+ Mean (x): 49.90508614830509
+ Standard Deviation (x): 28.508610519881927
+ Range (x): 87.3767
+
+ Mean (y): 18.553836525423726
+ Standard Deviation (y): 16.545896442941686
+ Range (y): 44.56504
+
+ Correlation coefficient of (x-y): LinregressResult(slope=-0.04712302914244814, intercept=20.90551535434669, rvalue=-0.08119306735490815, pvalue=0.3820976647915034, stderr=0.05370924090276827, intercept_stderr=3.083663978702675)
+
+Data file: data-1.csv
+
+ Mean (x): 49.90999357843095
+ Standard Deviation (x): 28.500000943801364
+ Range (x): 86.71497088602307
+
+ Mean (y): 18.555524937729086
+ Standard Deviation (y): 16.540796301840782
+ Range (y): 49.87869952875196
+
+ Correlation coefficient of (x-y): LinregressResult(slope=-0.05121029775251636, intercept=21.111430569706712, rvalue=-0.08823598983058886, pvalue=0.3420412721854271, stderr=0.05367663838972184, intercept_stderr=3.081793621215046)
+
+Data file: data-1.csv
+
+ Mean (x): 7.21615517960992
+ Standard Deviation (x): 11.921599067458313
+ Range (x): 59.735959663269966
+
+ Mean (y): 7.602215028237295
+ Standard Deviation (y): 11.764382455006647
+ Range (y): 59.03623102785603
+
+ Correlation coefficient of (x-y): LinregressResult(slope=0.9227373083339617, intercept=0.943599421283861, rvalue=0.9350685662094905, pvalue=6.196835632701479e-46, stderr=0.03533436251599758, intercept_stderr=0.4905959283138974)
+
