@@ -1,0 +1,14 @@
+Exercise 5 Answer
+
+Question 1.
+The result of np.exp is nan. Among the remaining three methods, np.sqrt has the p-value nearest to 0.05.
+
+Question 2.
+For the original t-test, if we reject the null hypothesis, there are unequal numbers of comments on r/canada on weekdays and weekends according to the original data.
+For the transformed data t-test, the number of transformed (sqrt) reviews differs between weekdays and weekends according to the transformed data.
+
+Question 3.
+CLT is the best because under the condition of relatively large sample size, the p-value obtained by t-test of the reprocessed data is > 0.05, so the null hypothesis can be rejected, which proves that the number of comments on weekday and weekend is different. It also proves that these data can present a normal distribution, so it is relatively good among the three methods.
+
+Question 4.
+By comparing weekdays and weekends with mean(), it can be seen that the data of weekdays and weekends are 1823.5785440613026 and 1269.5071770334928 respectively. So weekdays have more comments.
