@@ -1,0 +1,12 @@
+Exercise 7 Answer
+
+Question 1.
+Looking at your dog-rates.ipynb, do you think the residual are close-enough to being normal to look at the OLS p-value? Can you reasonably conclude that the ratings are increasing?
+
+Yes, it can be concluded that the ratings are increasing. Since the OLS p-value is very small (p-value= 2.536058725135304e-127< 0.05), the conjecture that the slope is 0 is rejected, and the residuals are close enough to normal. From the histogram and OLS regression it can be concluded that ratings are increasing.
+
+
+Question 2.
+Do you think that the new "better" prediction is letting the Kalman filter do a better job capturing the true signal in the noise?
+
+No, as observed in the previous exercise: the Kalman filter is now too sensitive to noise. But too much noise will lead to overfitting of the Kalman filter, and the real information in the noise provides more information that needs to participate in the fitting, so that these true signals affect the predicted value.
