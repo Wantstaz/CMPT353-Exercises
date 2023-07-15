@@ -1,0 +1,12 @@
+Exercise 8 Answers
+
+Question 1.
+Which model did the best for the colour-prediction task? Can you give a theory about why? Do you have any theory about why RGB/LAB/HSV worked better for different models?
+The result is: Bayesian classifier:     0.544  0.620
+               kNN classifier:          0.727  0.753
+               Rand forest classifier:  0.739  0.756
+According to the generated results, KNN classifier is the best for the colour-prediction task. By setting the parameters, the sample size is large enough, so that higher accuracy can be obtained and more suitable parameters can be found. RGB corresponds exactly to the three primary colors of light: red, green, and blue. The color parameters in the HSV model are hue, saturation, and brightness, which means that different models have different training data methods, and different color expressions work better for different models. . KNN classifier will pay more attention to the nearest neighbor, and LAB has a larger color space, so KNN is more suitable for predicting tasks.
+
+Question 2.
+Have a look at the cities in your validation data where the weather model makes the wrong prediction. Do you feel like the model is making reasonable mistakes? Can you think of any weather features that we could potentially add to make better predictions?
+Yes. Some of the weather data are highly similar, so I think the model is making legitimate mistakes. If other cities have similar weather data to the predicted city, the model will predict the wrong city. Other weather features that can be added can be barometric pressure, wind speed, humidity, etc.
