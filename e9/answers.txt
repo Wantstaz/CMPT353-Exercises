@@ -1,6 +1,0 @@
-Exercise 9 Answers
-
-Question 1.
-What was the application ID you saw in the YARN frontend (http://localhost:8088) of the job where you actually ran the first_spark.py on the cluster? (It should be like application_0000000000000_0000. If you ran multiple times, pick any one.) 
-
-application_1687899666994_0712
