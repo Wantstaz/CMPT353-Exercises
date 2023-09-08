@@ -1,0 +1,18 @@
+Exercise 11 Answer
+
+Question 1.
+In your reddit_relative.py, what intermediate results did you .cache()? Briefly describe what would have happened if you hadn't used .cache() anywhere. (No need to time it, unless you really want to.)
+I use .cache() before the .join() function, i.e. "avg.cache()". Because "avg" will be used in the subsequent steps, if .cache() is not used, the calculation of "avg" will be repeated and unnecessary calculations will increase the running time.
+
+
+Question 2.
+How did marking DataFrames for broadcast affect the running time of the “best author” program above?
+with broadcast():
+	real    1m4.215s
+	user    0m54.592s
+	sys     0m3.846s
+without broadcast():
+	real    1m10.077s
+	user    1m2.986s
+	sys     0m4.198s
+According to the results above, the run time differed between using broadcast() and not using broadcast(), the DataFrame for broadcasting can improve the run time.
